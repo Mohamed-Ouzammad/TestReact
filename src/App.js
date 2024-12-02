@@ -28,7 +28,7 @@ function App() {
 
         <div className="input-container">
           <div>
-            <label>Limite du compteur :</label>
+            <label>LimiteValue :</label>
             <input
               type="number"
               name="limitValue"
