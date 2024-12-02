@@ -32,7 +32,81 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Nv style pr le formulaire de counterLimit */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-container label {
+  font-size: 18px;
+  color: white;
+}
+
+.input-container input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-active-max {
+  background-color: green;
+}
+
+.btn-active-min {
+  background-color: red;
+}
+
+.btn-disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.btn-reset {
+  background-color: blue;
+}
+
+
+.alert-max {
+  color: orange;
+}
+
+.alert-min {
+  color: blue;
+}
+
+.counter-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #f9f9f9;
 }
